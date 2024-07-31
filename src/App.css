@@ -135,8 +135,8 @@ ul,
 }
 
 .btn.btn-primary {
-  background: #f64b4b;
-  border-color: #f64b4b;
+  background: #007bff; /* Blue color */
+  border-color: #007bff; /* Matching blue border color */
   padding: 13px 35px;
   font-size: 14px;
   line-height: 18px;
@@ -148,14 +148,15 @@ ul,
 
 .btn.btn-primary:focus,
 .btn.btn-primary:hover {
-  background: #fff;
-  border-color: #f64b4b;
-  color: #f64b4b;
+  background: #0056b3; /* Darker blue for hover/focus */
+  border-color: #0056b3; /* Matching darker blue border color */
+  color: #ffffff; /* White text for contrast */
 }
 
 .btn.btn-primary .fas {
   margin: 0 0 0 6px;
   font-size: 15px;
+  color: #ffffff; /* Ensure icon color matches the text color */
 }
 
 input[type=text],
@@ -395,7 +396,7 @@ textarea {
 }
 
 #header .navbar-brand {
-  color: #f64b4b;
+  color: #007bff; /* Blue color for brand text */
   text-transform: uppercase;
   font-weight: 600;
   height: auto;
@@ -418,14 +419,14 @@ textarea {
 }
 
 #header .navbar-collapse a {
-  color: #4d4d4d;
+  color: #4d4d4d; /* Text color for nav links */
   position: relative;
 }
 
 #header .navbar-collapse a:hover,
 #header .navbar-collapse a.active {
   background: none;
-  color: #f64b4b;
+  color: #007bff; /* Blue color for active and hover links */
 }
 
 #header .navbar-collapse a:hover:before,
@@ -437,7 +438,7 @@ textarea {
 
 #header .navbar-collapse a:before {
   content: '';
-  background: #f64b4b;
+  background: #007bff; /* Blue color for underline effect */
   height: 1px;
   position: absolute;
   bottom: 7px;
@@ -447,6 +448,7 @@ textarea {
   -webkit-transition: all 0.3s linear;
   opacity: 0;
 }
+
 
 #footer {
   background: #f64b4b;
@@ -1175,4 +1177,5 @@ textarea {
     font-size: 26px;
     margin: 0;
   } */
+
 }
